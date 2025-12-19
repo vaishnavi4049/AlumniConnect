@@ -1,12 +1,72 @@
-# React + Vite
+# 🎓 Alumni Connect
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Alumni Connect is a full-stack web application designed to bridge the gap between college juniors and alumni/seniors. It provides a collaborative community where students can seek guidance, share knowledge, access study resources, and receive career recommendations.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+### 👥 Community & Mentorship
+- Open community space for juniors and seniors
+- Juniors can ask questions and get advice from seniors
+- Knowledge sharing through posts and discussions
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 💬 Real-Time Chat
+- One-to-one and community chat
+- Implemented using **Socket.IO** for real-time messaging
+
+### 📹 Video Counseling
+- One-on-one video counseling sessions
+- Helps juniors get personalized guidance from seniors
+
+### 📅 Appointment Booking
+- Book counseling sessions via email
+- Email notifications for appointment confirmation
+
+### 📚 Study Resources
+- Curated **YouTube course links**
+- Top **GitHub repositories**
+- Additional learning resources for various domains
+
+### 💼 Job Recommendations
+- Role-based job suggestions
+- Helps students explore relevant career opportunities
+
+---
+
+## 🛠 Tech Stack
+
+### Frontend
+- **React.js**
+- **Tailwind CSS**
+
+### Backend
+- **Node.js**
+- **Express.js**
+
+### Real-Time & Communication
+- **Socket.IO** (Real-time chat)
+- **Video Calling API**
+
+### External APIs
+- **YouTube API** – course and learning content
+- **GitHub API** – top repositories
+- **Email Service API** – appointment booking & notifications
+
+---
+
+## 🧱 Project Architecture
+
+- **Client (React)** – UI and user interactions
+- **Server (Express + Node)** – APIs and business logic
+- **Socket Server** – real-time chat communication
+- **Third-party APIs** – learning resources & integrations
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/your-username/alumni-connect.git
+cd alumni-connect
